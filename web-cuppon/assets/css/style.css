@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-cuppon {
+    width: 6rem;
+}
+
+.contenedor-green {
+    background-color: #28a745 !important;
+}
+
+.cont-1 {
+    padding-top: 80px;
+}
+
+.titulo-carta {
+    font-size: 1.6rem;
+    color: #212529;
+}
+
+.det-location, .det-location-2 {
+    color: #707070;
+    padding-top: 8px;
+}
+
+.det-location-2 {
+    font-size: 1rem;
+    display: inline;
+}
+
+
+.line{
+    border-bottom: 1px solid #E5E7E9 ;
+    margin: 18px 0;
+}
+
+.price-top, .price-bot {
+    display: inline-block;
+}
+
+.price-top {
+    color: #707070;
+    font-size: 1.5rem;
+}
+
+.price-bot {
+    color: #28a745;
+    font-size: 2rem;
+    padding-left: .9rem;
+}
+
+.valores {
+    display: inline-block;
+    float: right;
+}
+
+.forms-footer {
+    background-color: #28a745;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.boton-enviar {
+    background-color: #F8F9FA;
+    margin: auto;
+    display: block;
+}
+.paletadecolor {
+    color: #212529;
+    color: #707070;
+    color: #F8F9FA;
+    color: #28a745;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom: 1.3rem;
+}
+
+.derechos {
+    text-align: center;
+    color: #707070;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+.logo-bot {
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    display: block;
+}
+
