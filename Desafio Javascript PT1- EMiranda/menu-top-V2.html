@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <style>
+        nav {
+            height: 70px;
+            background-color: black;
+            color: white;
+            padding: 0px;
+            line-height: 70px; /*el texto quedará centrado verticalmente si es del mismo alto que el contenedor*/
+            padding-left: 20px;
+        }
+
+        nav.hide {
+            display: none;
+        }
+
+        body {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="nav">
+        <a onclick="document.getElementById('nav').classList.add('hide');">Esconder</a>
+    </nav>
+        <a onclick="document.getElementById('nav').classList.remove('hide');"> Mostrar </a>
+</body>
+
+</html>

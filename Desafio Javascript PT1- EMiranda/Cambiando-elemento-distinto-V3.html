@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .color-1 {
+            color: red;
+        }
+
+        .color-2 {
+            color: blue;
+        }
+
+        .color-3 {
+            color: green;
+        }
+
+        .color-4 {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="par-1" onclick="document.getElementById('par-2').classList.add('color-1')"> 1 </p>
+    <p id="par-2" onclick="document.getElementById('par-3').classList.add('color-2')"> 2 </p>
+    <p id="par-3" onclick="document.getElementById('par-4').classList.add('color-3')"> 3 </p>
+    <p id="par-4" onclick="document.getElementById('par-1').classList.add('color-4')"> 4 </p>
+
+    <script>
+    </script>
+</body>
+
+</html>

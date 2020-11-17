@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores</title>
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body id="body"> 
+    <div id="box"></div>
+
+    <button id="big"> "400x400 px" </button>
+    <button id="small"> "100x100 px" </button>
+
+    <script>
+        var caja = document.getElementById("box");
+
+        var grande = document.getElementById('big');
+        var pequeño = document.getElementById('small');
+
+            grande.addEventListener('click', function(){
+                cambiar_tamaño("big");
+            });
+
+            pequeño.addEventListener('click', function(){
+                cambiar_tamaño2("small");
+            });
+
+
+                function cambiar_tamaño(tamaño){
+                    caja.style.height = "400px";
+                    caja.style.width = "400px";
+                }
+
+                function cambiar_tamaño2(tamaño){
+                    caja.style.height = "100px";
+                    caja.style.width = "100px";
+                }
+    </script>
+
+</body>
+</html>

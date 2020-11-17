@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores</title>
+    <style>
+        #box {
+            width: 170px;
+            height: 170px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body id="body"> 
+    <div id="box"></div> <!--se crea el div que contiene el estilo #box-->
+
+    <button id="green"> Verde </button> <!--ahora los botones id= green, yellow y red.-->
+    <button id="yellow"> Amarillo </button>
+    <button id="red"> Rojo </button>
+
+    <script>
+        var caja = document.getElementById("box"); /* se crea una variable 'caja' que corresponde al id: box */
+
+        var verde = document.getElementById('green'); /* se crean las variables verde, amarillo y rojo correspondientes a las id green, yellow y red. */
+        var amarillo = document.getElementById('yellow');
+        var rojo = document.getElementById('red');
+
+            verde.addEventListener('click', function(){ /* seleccionando a la variable verde, y haciendole click se generará un evento a través de una función. */
+                cambiar_color("green");                 /* esa función se llama cambiar_color y la cambiará a "green" */
+            });
+
+            amarillo.addEventListener('click', function(){
+                cambiar_color("yellow");
+            });
+
+            rojo.addEventListener('click', function(){
+                cambiar_color("red");
+            });
+
+                function cambiar_color(color){              /* finalmente se crea la función */
+                    caja.style.backgroundColor = color;
+                }
+    </script>
+
+</body>
+</html>
