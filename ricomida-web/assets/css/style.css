@@ -1,0 +1,53 @@
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Cabin', sans-serif;
+}
+  
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 10rem; /*ya que los pt llegan hasta el 5 se aumenta mas con css*/
+}
+  
+.carousel-indicators {
+    top: 50px;
+}
+  
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.line{
+    display: block;
+    height: 50px;
+    border-bottom: 1.5px solid black;
+}
+
+@media (max-width:767px) {
+    #cosa {text-align: center;}
+    #carouselSlider {display:none;}
+    #buttonSection {justify-content: center;}
+}
+
+ul{ 
+    list-style-type: none;
+}
+
+.newsletter {
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+    font-size: 2rem;
+    color: #fff
+}
+
+.logoRicomidaMain {
+    font-family: 'Lobster';
+    font-size: 2rem;
+}
+
+.logoRicomida {
+    font-family: 'Lobster';
+}
